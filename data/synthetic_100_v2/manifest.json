@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "chunks": 100,
+  "questions": {
+    "development": 8,
+    "evaluation": 4
+  },
+  "note": "Deterministic relationships; no LLM extraction required."
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "three-chunk integration check, not a complete graph or benchmark",
+  "question": "What relationship connects Consultant pharmacists and nursing homes?",
+  "hits": [
+    {
+      "chunk_id": "0051dab375bd30dce07e11ed",
+      "text": "Consultant pharmacists most typically work in nursing homes, but are increasingly branching into other institutions and non-institutional settings.",
+      "title": "Pharmacy",
+      "score": -1,
+      "sources": [
+        "graph"
+      ],
+      "paths": [
+        "Consultant pharmacists \u2014 work \u2192 nursing homes",
+        "Consultant pharmacists \u2014 branch \u2192 other institutions",
+        "Consultant pharmacists \u2014 branch \u2192 non-institutional settings"
+      ]
+    }
+  ],
+  "answer": "The relationship that connects Consultant pharmacists and nursing homes is that Consultant pharmacists most typically work in nursing homes. [1]",
+  "usage": {
+    "model": "llama3.1:latest",
+    "input_tokens": 182,
+    "output_tokens": 26,
+    "citation_warning": null
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "question": "Is the environmental performance of CFLs better or worse than that of incandescents?",
+  "mode": "vector",
+  "selected_route": "vector",
+  "router_version": "rules-v1",
+  "decision": null,
+  "hits": [
+    {
+      "chunk_id": "0201b55f32286b3d6cbe2886",
+      "text": "However, even though they contain mercury, the environmental performance of CFLs is much better than that of light bulbs, mostly because they consume much less energy and therefore strongly reduce the environmental impact of power production.",
+      "title": "Incandescent_light_bulb",
+      "score": -0.44274285435676575,
+      "sources": [
+        "vector"
+      ],
+      "paths": []
+    },
+    {
+      "chunk_id": "902c74bb3383dee9559dd25d",
+      "text": "Objections to banning the use of incandescent light bulbs include the higher initial cost of alternatives and lower quality of light of fluorescent lamps.",
+      "title": "Incandescent_light_bulb",
+      "score": -0.7545714378356934,
+      "sources": [
+        "vector"
+      ],
+      "paths": []
+    },
+    {
+      "chunk_id": "f93a66eeb838873493657828",
+      "text": "LED lamps are even more efficient, and are free of mercury.",
+      "title": "Incandescent_light_bulb",
+      "score": -0.9785507917404175,
+      "sources": [
+        "vector"
+      ],
+      "paths": []
+    },
+    {
+      "chunk_id": "0a0b3c907ec851c8e1dcb924",
+      "text": "Some people have concerns about the health effects of fluorescent lamps.",
+      "title": "Incandescent_light_bulb",
+      "score": -0.9870460629463196,
+      "sources": [
+        "vector"
+      ],
+      "paths": []
+    },
+    {
+      "chunk_id": "a98527e66b0be80376149709",
+      "text": "As well as being fair trade certified, the company uses eco-friendly products as much as possible such as organic cottons and Forest Stewardship Council certified sustainable all natural rubber.",
+      "title": "Autonomie project",
+      "score": -1.4078924655914307,
+      "sources": [
+        "vector"
+      ],
+      "paths": []
+    }
+  ],
+  "answer": null,
+  "usage": {},
+  "database_calls": {
+    "vector": 1,
+    "graph": 0
+  },
+  "branch_ms": {
+    "vector": 1132.457499857992
+  },
+  "routing_ms": 0.000125030055642128,
+  "retrieval_ms": 1132.4597499333322,
+  "generation_ms": 0,
+  "total_ms": 1132.4877499137074,
+  "fallback_used": false,
+  "retrieval_errors": {},
+  "generation_error": null,
+  "status": "ok"
+}

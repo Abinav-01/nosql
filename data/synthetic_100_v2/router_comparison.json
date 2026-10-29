@@ -1,0 +1,7 @@
+{
+  "samples": 8,
+  "learned_accuracy": 1.0,
+  "rule_accuracy": 1.0,
+  "learned_router": "nb-v1",
+  "rule_router": "rules-v1"
+}

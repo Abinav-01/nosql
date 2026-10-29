@@ -1,0 +1,36 @@
+{
+  "seed": 42,
+  "per_dataset_requested": 3,
+  "chunks": 273,
+  "questions": {
+    "development": 6,
+    "evaluation": 6
+  },
+  "inputs": [
+    {
+      "dataset": "squad",
+      "split": "development",
+      "file": "squad_train.json",
+      "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955"
+    },
+    {
+      "dataset": "squad",
+      "split": "evaluation",
+      "file": "squad_dev.json",
+      "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9"
+    },
+    {
+      "dataset": "hotpot",
+      "split": "development",
+      "file": "hotpot_train.parquet",
+      "sha256": "76d3bb3048a7cc73c1958107c0c5872a00d7e7d00c105b81e92f6769e7822e68"
+    },
+    {
+      "dataset": "hotpot",
+      "split": "evaluation",
+      "file": "hotpot_dev.parquet",
+      "sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6"
+    }
+  ],
+  "note": "Published train -> development; published dev -> local evaluation. Initial Hotpot training download uses shard 0 of 2. No route labels inferred from dataset."
+}

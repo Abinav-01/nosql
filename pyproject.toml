@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-vector-graph-rag"
+version = "0.1.0"
+description = "A reproducible vector/graph retrieval and adaptive routing experiment"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "chromadb>=1.0,<2", "sentence-transformers>=3,<6", "neo4j>=5.26,<7",
+  "streamlit>=1.40,<2", "python-dotenv>=1,<2", "requests>=2.32,<3"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+adaptive-rag = "adaptive_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
